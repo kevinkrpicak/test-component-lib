@@ -1,0 +1,29 @@
+{
+  "name": "@kevinkrpicak/test-component-lib",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/kevinkrpicak"
+  },
+  "version": "0.0.1",
+  "description": "Test for creating react component library",
+  "scripts": {
+    "rollup": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kevin Krpicak",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "react": "^18.2.0",
+    "rollup": "^2.75.7"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ]
+}
