@@ -1,8 +1,5 @@
 {
   "name": "@kevinkrpicak/test-component-lib",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/kevinkrpicak"
-  },
   "version": "0.0.1",
   "description": "Test for creating react component library",
   "scripts": {
