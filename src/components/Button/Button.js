@@ -1,8 +1,9 @@
 import React from "react";
+import css from './Button.css';
 
 const Button = (props) => {
   return (
-    <button>{props.label} BEN!</button>
+    <button className={css.button}>{props.label} test</button>
   );
 }
 
