@@ -10,7 +10,7 @@
     "rollup-dev": "rollup -c -w",
     "docs": "cd docs && npm run start",
     "dev": "npm-run-all --parallel rollup-dev docs",
-    "test": "echo \"No test specified\""
+    "test": "jest"
   },
   "keywords": [],
   "author": "Kevin Krpicak",
@@ -22,9 +22,13 @@
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-node-resolve": "^13.3.0",
+    "@testing-library/react": "^13.3.0",
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "jest-environment-jsdom": "^28.1.3",
     "npm-run-all": "^4.1.5",
     "react": "^18.2.0",
-    "rollup": "^2.75.7"
+    "rollup": "^2.75.7",
     "rollup-plugin-postcss": "^4.0.2"
   },
   "main": "dist/cjs/index.js",
