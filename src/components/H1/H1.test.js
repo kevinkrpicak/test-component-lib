@@ -5,6 +5,6 @@ import H1 from "./H1";
 
 describe("H1", () => {
   test("renders the H1 component", () => {
-    render(<H1 label="H1 Text Goes Here" />);
+    render(<H1>H1 Text Goes Here</H1>);
   });
 });

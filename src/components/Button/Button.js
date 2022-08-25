@@ -3,7 +3,7 @@ import css from './Button.css';
 
 const Button = (props) => {
   return (
-    <button className={css.button}>{props.label} test</button>
+    <button className={css.button}>{props.label}</button>
   );
 }
 
