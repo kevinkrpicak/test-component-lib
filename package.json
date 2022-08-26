@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/kevinkrpicak"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Test for creating react component library",
   "scripts": {
     "rollup": "rollup -c",
