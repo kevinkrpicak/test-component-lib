@@ -1,12 +1,17 @@
 import './App.css';
 
 import {Button} from '@kevinkrpicak/test-component-lib';
-import {H1} from '@kevinkrpicak/test-component-lib'
+import {Heading} from '@kevinkrpicak/test-component-lib'
 
 function App() {
   return (
     <>
-      <H1>Test Component Page</H1>
+      <Heading as="h1">Test Component Page</Heading>
+      <Heading as="h2">Test Component Page</Heading>
+      <Heading as="h3">Test Component Page</Heading>
+      <Heading as="h4">Test Component Page</Heading>
+      <Heading as="h5">Test Component Page</Heading>
+      <Heading as="h6">Test Component Page</Heading>
       <Button
         className="foo"
         style={{ padding: "10px" }}

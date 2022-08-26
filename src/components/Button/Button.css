@@ -12,3 +12,7 @@
   font-family:inherit;
   line-height: inherit;
 }
+
+.button:hover{
+  background: lightcyan;
+}

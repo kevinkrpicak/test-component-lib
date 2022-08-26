@@ -5,9 +5,10 @@ const Button = ({as, className, label, children, ...props}) => {
   const acceptedTypes = [
     "div", "span", "a"
   ];
+  const tag = acceptedTypes.includes(as) && as || 'button';
 
   return React.createElement(
-    acceptedTypes.includes(as) && as || 'button',
+    tag,
     {
       className: [css.button, className].join(' '),
       ...props
