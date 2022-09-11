@@ -19,7 +19,7 @@ jobs:
 
       - name: Run Prettier
         run: |
-          make github-prettier-drund
+          npm run prettier
 
       - name: Run Tests
         run: npm test
