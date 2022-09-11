@@ -12,6 +12,13 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 12
+      - name: Build
       - run: npm ci
       - run: npm run rollup
-      - run: npm test
+
+      - name: Run Prettier
+        run: |
+          make github-prettier-drund
+
+      - name: Run Tests
+        run: npm test
