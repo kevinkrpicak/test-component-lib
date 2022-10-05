@@ -18,7 +18,6 @@ type HeadingProps = {
   children?: React.ReactNode;
 };
 
-// TODO: Use 'HeadingProps' type for destructured props
 const Heading = ({
   as = HeadingTypes.H1,
   className,
